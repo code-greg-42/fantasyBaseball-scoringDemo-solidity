@@ -1,0 +1,28 @@
+{
+  "name": "fantasy-baseball",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@headlessui/react": "^1.6.6",
+    "@heroicons/react": "^1.0.6",
+    "@nomicfoundation/hardhat-toolbox": "^1.0.2",
+    "@tailwindcss/aspect-ratio": "^0.4.0",
+    "@tailwindcss/forms": "^0.5.2",
+    "@tailwindcss/typography": "^0.5.4",
+    "autoprefixer": "^10.4.7",
+    "axios": "^0.27.2",
+    "hardhat": "^2.10.1",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.6"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1"
+  }
+}
