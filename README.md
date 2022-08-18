@@ -1,13 +1,7 @@
-# Sample Hardhat Project
+Smart Contract and scripts for a blockchain-based fantasy baseball site. This specific contract corresponds to a demo showing the post-draft process on the site.
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+All functions have been built into the front-end React app. A lot of the functionality of the React app centers around events.
 
-Try running some of the following tasks:
+This smart contract is currently setup to run with one main owner calling all of the functions, but it could easily be changed to work with each user calling it directly.
 
-```shell
-npx hardhat help
-npx hardhat test
-GAS_REPORT=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
-```
+The corresponding React app can be found at github.com/grandersson/fantasyBaseball-scoringDemo-React
